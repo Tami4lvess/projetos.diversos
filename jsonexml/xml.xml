@@ -1,0 +1,22 @@
+<xml>
+	<pedido>
+		<id>p123</id>
+		<data>2025-09-26 </data>
+		<cliente>
+			<nome>Deise Souza</nome>
+			<email>deise.souza@gmail.com</email>
+		</cliente>
+		<itens>
+			<item>
+				<codigo> "STU001"</codigo>
+				<descricao> "Caneca" </descricao>
+				<preco> 25.05</preco>
+			</item>
+			<item>
+				<codigo> "SKV008"</codigo>
+				<descricao> "Camisa" </descricao>
+				<preco> 79.90</preco>
+			</item>
+		</itens>
+	</pedido>
+</xml>

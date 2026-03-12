@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Meu site rosa</title>
+
+  <!-- AQUI acontece a conexão -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="flo.ico" type="image/x-icon">
+</head>
+
+<body>
+  <!-- TODO esse conteúdo recebe o CSS -->
+  <div class="site">
+
+    <h1>Meu site rosa 💗</h1>
+
+    <p class="intro">
+      xuxu
+    </p>
+
+    <div class="caixa">
+      <h2>🌸Sobre mim</h2>
+      <p>ser humano extrovertido!</p>
+    </div>
+
+    <div class="caixa">
+      <h2>🌷O que estou aprendendo</h2>
+      <p>HTML e CSS básico.</p>
+    </div>
+
+ <button class="botao" onclick="mostrarImagem()">
+  🎀
+</button>
+
+<img
+  id="imagemSurpresa"
+  src="fofa.jpeg"
+  alt="Imagem fofa"
+  class="imagem"
+/>
+
+  </div>
+  
+  <script>
+  function mostrarImagem() {
+    const img = document.getElementById("imagemSurpresa");
+
+    if (img.style.display === "none" || img.style.display === "") {
+      img.style.display = "block";
+    } else {
+      img.style.display = "none";
+    }
+  }
+</script>
+
+
+</body>
+</html>

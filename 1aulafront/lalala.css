@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(175, 113, 234);
+    padding: 30px;
+}
+.site{
+max-width: 400px;
+margin: 30px auto;
+background-color: blueviolet;
+padding: 35px;
+border-radius:  25px;
+box-shadow: 0 12px 30px rgba(rgb(174, 92, 162));
+
+}
+h1{
+    color: black;
+    text-align: center;
+}
+p{
+    color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.botao{
+background-color: rgb(245, 250, 254);
+padding: 30px 39px 8px;
+border-radius: 10px;
+transition: all 0.3 ease;
+cursor: pointer;
+display: block;
+
+}
+
+
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+  }
+  
+  .site h1 {
+    animation: pulse 3.5s infinite;
+  }
+  .site{
+    transition: all 0.6s ease;
+  }
+  .site:hover {
+    transform: scale(1.04);
+  }

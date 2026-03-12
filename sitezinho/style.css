@@ -1,0 +1,98 @@
+/* 1. COR DE FUNDO E FONTE */
+body {
+  background-color: #ffe4ec;
+  font-family: 'arial', sans-serif;
+  padding: 30px;
+}
+
+/* 2. CONTAINER PRINCIPAL */
+.site {
+  max-width: 400px;
+  margin: 30px auto;
+  background-color: white;
+  padding: 35px;
+  border-radius: 25px;
+  box-shadow: 0 12px 30px rgba(241, 43, 142, 0.3);
+}
+
+
+/* 3. TÍTULOS */
+h1 {
+  color: #ffb6c1;
+  text-align: center;
+}
+
+h2 {
+  color: #ff85c1;
+}
+
+/* 4. TEXTO */
+.intro {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+/* 5. CAIXAS */
+.caixa {
+  background-color: #fff0f5;
+  font-family:'pacifico', cursive;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+
+.botao {
+  background: #ffb6c1;
+  color: white;
+  border: none;
+  padding: 12px 22px;
+  border-radius: 30px;
+  font-size: 15px;
+  cursor: pointer;
+  display: block;
+  margin: 20px auto;
+  transition: all 0.3s ease;
+}
+
+.botao:hover {
+  background: #f495c3;
+  transform: scale(1.05);
+}
+
+.imagem {
+  display: none; /* começa escondida */
+  margin: 10px auto;
+  max-width: 90%;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(232, 108, 170, 0.5);
+}
+
+/* EFEITO: faz a caixa crescer */
+.caixa {
+  transition: all 0.3s ease;
+}
+
+/* movimeto do das caixinhas */
+.caixa:hover {
+  transform: scale(1.04);
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+.site h1 {
+  animation: pulse 3.5s infinite;
+}
+@keyframes flutuar {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+  100% { transform: translateY(0); }
+}
+
+.caixa h2 {
+  animation: flutuar 2s ease-in-out infinite;
+}
+

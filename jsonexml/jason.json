@@ -1,0 +1,15 @@
+{
+    "titulo":"Heuromancer",
+    "autor":"Willian Gibson",
+    "anoPublicado":1984,
+    "disponivel":"True",
+    "generos":
+            [
+                "Ficcao cientifica","Cyberpunk"
+            ],
+    "editora": {"nome" :"Ace Books","cidade":"Nova York"}                  
+}
+    
+    
+    
+    
